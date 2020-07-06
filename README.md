@@ -1,9 +1,14 @@
+<a href="https://github.com/stevejkang/filezilla-from-git"><img src="https://raw.githubusercontent.com/stevejkang/emoji-for-readme/master/emoji/personal-computer.png" align="right" width="90" height="90" /></a>
+
 # filezilla-from-git
-> [한국어](https://github.com/stevejkang/filezilla-from-git/blob/master/README.ko.md)
 
-💻 Automation script for easy upload local files that changed at specific git commit hash, to a remote server using XML formatted queue file.
+  Automation script for easy upload local files that changed at specific git commit hash, to a remote server using XML formatted queue file.
 
-## 📚 Usage
+  [![Last Commit](https://img.shields.io/github/last-commit/stevejkang/filezilla-from-git.svg)](https://github.com/stevejkang/filezilla-from-git/commits)
+
+
+## Usage
+
 1. Clone the repository
     ```bash
     $ git clone https://github.com/stevejkang/filezilla-from-git.git
@@ -33,7 +38,15 @@
     ```
 5. Import the created file(`queue.xml`) and check the queue.
 
-## ❗️ Caution
-- Make sure that the local file tree and remote file tree are the same. This is assumed to be all the same under the defined project root path. Otherwise, the xml created will proceed with the upload based on the local file.
-- This script does not provide ignoration of specific files. It reflects all the files that were changed.
-- This script is a file made for automation, but it is hard to ensure that it always provides accurate files and content. Please check again.
+## Caution
+   - Make sure that the local file tree and remote file tree are the same. This is assumed to be all the same under the defined project root path. Otherwise, the xml created will proceed with the upload based on the local file.
+   - This script does not provide ignoration of specific files. It reflects all the files that were changed.
+   - This script is a file made for automation, but it is hard to ensure that it always provides accurate files and content. Please check again.
+
+## License
+
+  MIT
+
+## Author
+
+  stevejkang <iam@juneyoung.io>
